@@ -37,6 +37,11 @@ public class RightHandController : MonoBehaviour {
 
     private void JoystickArribaLiberado(InputAction.CallbackContext context)
     {
+        Invoke("JoystickArribaLiberadoInvoke", 0.005f);
+    }
+
+    private void JoystickArribaLiberadoInvoke()
+    {
         xrRayInteractor_grab.enabled = true;
         //:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
