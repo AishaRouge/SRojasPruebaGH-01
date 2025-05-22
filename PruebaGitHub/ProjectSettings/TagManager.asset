@@ -35,7 +35,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - NoPeek
   - Teleport
   m_SortingLayers:
   - name: Default
